@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.imagem3{
+   width: 45%;
+    height: 50%;
+}
+.imagemj{
+    margin-top: 3vh;
+ 
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff7f50;
+}
+
+section {
+    margin: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 20px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%; 
+}
+
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-info, .social-media {
+    margin-bottom: 20px;
+}
+
+.contact-info h3, .social-media h3 {
+    font-size: 24px;
+}
+
+.contact-info p, .social-media a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+}
+
+.social-media img:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        margin: 40px 0;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    gallery img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    label, input, textarea, button {
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    .contact-info, .social-media {
+        margin-bottom: 10px;
+    }
+
+    .contact-info h3, .social-media h3 {
+        font-size: 20px;
+    }
+
+    .contact-info p, .social-media a {
+        font-size: 16px;
+    }
+
+    .social-media img {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+}
